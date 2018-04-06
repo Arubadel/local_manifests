@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- device -->
+  <project path="device/samsung/delos3geur" name="Arubadel/android_device_delos3geur" revision="cm-12.1"  />
+  <project path="device/samsung/arubaslim" name="Arubadel/android_device_arubaslim" revision="cm-12.1"  />
+  <project path="device/samsung/msm7x27a-common" name="Arubadel/android_device_msm7x27a-common" revision="cm-12.1" />
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-12.1" />
+
+  <!-- hardware -->
+  <project path="hardware/qcom/display-caf/msm7x27a" name="Arubadel/hardware_qcom_display-legacy" revision="cm-12.1" />
+  <project path="hardware/qcom/media-caf/msm7x27a" name="Arubadel/hardware_qcom_media-legacy" revision="cm-12.1"  />
+  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" revision="cm-12.1" />
+
+  <!-- vendor -->
+  <project path="vendor/samsung/delos3geur" name="Arubadel/vendor_samsung_delos3geur" revision="cm-12.1" />
+  <project path="vendor/samsung/arubaslim" name="Arubadel/vendor_samsung_arubaslim" revision="cm-12.1" />
+  <project path="vendor/samsung/msm7x27a-common" name="Arubadel/android_vendor_msm7x27a-common" revision="cm-12.1" />
+
+  <!-- kernel -->
+  <project path="kernel/samsung/delos3geur" name="Arubadel/android_kernel_delos3geur" revision="cm-12.1" />
+  <!--project path="kernel/samsung/arubaslim" name="Arubadel/android_kernel_arubaslim" -->
+
