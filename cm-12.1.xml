@@ -2,9 +2,10 @@
 <manifest>
 
   <!-- device -->
+  <project path="device/nokia/normandy
   <project path="device/samsung/delos3geur" name="Arubadel/android_device_delos3geur" revision="cm-12.1"  />
   <project path="device/samsung/arubaslim" name="Arubadel/android_device_arubaslim" revision="cm-12.1"  />
-  <project path="device/samsung/msm7x27a-common" name="Arubadel/android_device_msm7x27a-common" revision="cm-12.1" />
+  <project path="device/generic/msm7x27a" name="Arubadel/android_device_generic_msm7x27a" revision="cm-12.1" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" revision="cm-12.1" />
 
   <!-- hardware -->
@@ -15,9 +16,12 @@
   <!-- vendor -->
   <project path="vendor/samsung/delos3geur" name="Arubadel/vendor_samsung_delos3geur" revision="cm-12.1" />
   <project path="vendor/samsung/arubaslim" name="Arubadel/vendor_samsung_arubaslim" revision="cm-12.1" />
-  <project path="vendor/samsung/msm7x27a-common" name="Arubadel/android_vendor_msm7x27a-common" revision="cm-12.1" />
+  <project path="vendor/generic/msm7x27a" name="Arubadel/android_vendor_generic_msm7x27a" revision="cm-12.1" />
 
   <!-- kernel -->
-  <project path="kernel/samsung/delos3geur" name="Arubadel/android_kernel_delos3geur" revision="cm-12.1" />
-  <!--project path="kernel/samsung/arubaslim" name="Arubadel/android_kernel_arubaslim" -->
+  <project path="kernel/samsung/delos3geur" name="Arubadel/android_kernel_delos3geur" revision="cm-13.0" />
+  <project path="kernel/samsung/arubaslim" name="Arubadel/android_kernel_arubaslim" revision="cm-13.0" />
 
+  <!-- gcc-4.6 -->
+                                                                                                      
+</manifest>                                                                                                     
